@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/keen-slider/keen-slider.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://kit.fontawesome.com/a0b1d27ba3.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js" defer></script>
+  <script src="swiper.js" defer></script>
+  <title>E-Co Tech</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <a class="cabecalho-logo" href="#header-invisible-box-banner"><img src="assets/Logo.svg" alt="Logo E-co Tech"></a>
+    <nav class="cabecalho-menu" id="nav">
+      <button id="btn-mobile"><span id="hamburger"></button>
+      <ul class="cabecalho-menu-list">
+        <li><a class="cabecalho-menu-item" href="#header-invisible-box-about">Sobre</a></li>
+        <li><a class="cabecalho-menu-item" href="#header-invisible-box-product">Projeto</a></li>
+        <li><a class="cabecalho-menu-item" href="#header-invisible-box-contact">Contato</a></li>
+        <li><a class="cabecalho-menu-item" href="#header-invisible-box-partners">Sócios</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="header-invisible-box-banner"></div>
+  <section class="banner" id="banner">
+    <div class="banner-content">
+      <h3>Análise Microbiológica</h3>
+      <hr class="banner-bar">
+      <p>Mais do que oferecer ferramentas para controle de qualidade. A E-co Tech quer caminhar ao lado dos pequenos
+        negócios e oferecer soluções cada vez mais acuradas!</p>
+    </div>
+    <div class="chevron-down">
+      <a class="chevron-down" href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <div id="header-invisible-box-about" class="header-invisible-box"></div>
+  <section class="about" id="about">
+    <h2>A E-co Tech</h2>
+    <div class="content">
+      <div class="content-info">
+        <h3>Controle microbiológico na palma das mãos</h3>
+        <p>A E-co Tech é a primeira startup que oferece e desenvolve testes rápidos para qualidade microbiológica de
+          pequenos e médios negócios no Brasil. <br><br>Nossa missão é democratizar o acesso a tecnologias de gestão de
+          qualidade, promovendo o desenvolvimento sustentável de pequenos negócios.</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="header-invisible-box-product" class="header-invisible-box"></div>
+  <section class="product" id="product">
+    <div class="product-left-container">
+      <div class="product-content">
+        <h3>Nosso Produto</h3>
+        <img src="/assets/Titulo-mobile.svg" alt="titulo-produto" class="image-mobile">
+        <div class="carousel-mobile">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/image1.svg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/image2.svg" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="product-content-title">
+          <img src="/assets/product-title.svg" alt="titulo-produto" class="image-desktop">
+        </div>
+        <div class="product-content-p">
+          <p>O nosso primeiro produto é o biossensor Acqua ID que é capaz de identificar Escherichia coli em água. A Escherichia coli é uma bactéria indicadora de coliforme fecal que pode causar doenças e até mortes quando ingerido. O nosso diferencial e o que permite uma aplicação no mercado é a capacidade do biossensor de identificar as bactérias de forma rápida e gerando um resultado de fácil interpretação.</p>
+        </div>
+      </div>
+      <div class="product-content-right">
+        <div class="product-content-h4">
+          <h4>Principais características do nosso produto:</h4>
+        </div>
+        <div class="product-content-carac">
+          <div>
+            <p><i class="fas fa-check"></i>Rapidez no resultado (em minutos)</p>
+            <p><i class="fas fa-check"></i>Resultado colorimétrico</p>
+          </div>
+
+          <div>
+            <p><i class="fas fa-check"></i>Simplicidade de aplicação</p>
+            <p><i class="fas fa-check"></i>Econômico</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/image1.svg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/image2.svg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="header-invisible-box-contact" class="header-invisible-box"></div>
+  <section class="contact" id="contact">
+    <div class="contact-title">
+      <h2>Contato</h2>
+    </div>
+    <div class="contact-text">
+      <p id="first">Tem interesse no nosso produto?</p>
+      <p id="second">Nos mande uma mensagem e logo entraremos em contato!</p>
+    </div>
+    <form action="https://formsubmit.co/comunicacao.ecotech@gmail.com" method="POST">
+      <div id="name-email">
+        <div class="name">
+          <label for="input-name">Nome</label>
+          <input name="Nome" type="text" id="input-name" class="inputs" required>
+        </div>
+        <div class="email">
+          <label for="input-email">E-mail</label>
+          <input name="Email" type="email" id="input-email" class="inputs" required>
+        </div>
+      </div>
+      <div class="message">
+        <label for="input-message">Mensagem</label>
+        <textarea name="Mensagem" id="input-message" cols="30" rows="10" class="inputs" required></textarea>
+      </div>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://ecotechstartup.com/#header-invisible-box-contact">
+      <button type="submit" class="send-button">Enviar</button>
+    </form>
+  </section>
+
+  <div id="header-invisible-box-partners" class="header-invisible-box"></div>
+  <section class="partners" id="partners">
+    <h1>Sócios</h1>
+    <div class="partners-photos">
+      <div class="paula">
+        <img src="/assets/Paula-Correa.svg" alt="Paula Correa">
+        <div class="description">
+          <p class="p1">Paula Correa</p>
+          <hr class="partners-bar">
+          <p class="p2">Co-founder E-co Tech <span class="span">•</span> Operações e mercado</p>
+          <p class="p3"><i class="fa-brands fa-linkedin"></i><a target="_blank"
+              href="https://www.linkedin.com/in/paulaneddermeyer/">paulaneddermeyer</a></p>
+        </div>
+
+      </div>
+      <div class="eduarda">
+        <img src="/assets/Eduarda-Dias.svg" alt="Eduarda Dias">
+        <div class="description">
+          <p class="p1">Eduarda Dias</p>
+          <hr class="partners-bar">
+          <p class="p2">Co-founder E-co Tech <span class="span">•</span> Negócios e Finanças</p>
+          <p class="p3"><i class="fa-brands fa-linkedin"></i><a target="_blank"
+              href="https://www.linkedin.com/in/eduarda-dias-/">eduarda-dias-</a></p>
+        </div>
+      </div>
+
+      <div class="arthur">
+        <img src="/assets/Arthur-Alves.svg" alt="Arthur Alves">
+        <div class="description">
+          <p class="p1">Arthur Alves</p>
+          <hr class="partners-bar">
+          <p class="p2"> Co-founder E-co Tech <span class="span">•</span> Desenvolvimento tecnológico</p>
+          <p class="p3"><i class="fa-brands fa-linkedin"></i><a target="_blank"
+              href="https://www.linkedin.com/in/arthur-alves-coelho/">arthur-alves-coelho</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="location">
+        <h3>Localização</h3>
+        <div class="location-info">
+          <a class="location-info-item">
+            <div class="icon-shadow">
+              <i class="fa-solid fa-map-marker-alt"></i>
+            </div>
+            <p>Goiânia - GO</p>
+          </a>
+        </div>
+        <div class="supporter">
+          <h3>Apoiador</h3>
+          <div class="supporter-info">
+            <a href="https://cei.ufg.br/" class="supporter-info-item" target="_blank">
+              <div class="icon-shadow">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+              </div>
+              <p>Centro de Empreendedorismo<br>& incubação - UFG Goiânia</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <h3>Contatos</h3>
+        <div class="contacts-info">
+          <a class="contacts-info-item"
+            href="https://api.whatsapp.com/send?phone=5564981183816&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20E-Co%20Tech."
+            target="_blank">
+            <div class="icon-shadow">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <p>(64) 98118-3816</p>
+          </a>
+          <a class="contacts-info-item" href="#header-invisible-box-contact">
+            <div class="icon-shadow">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <p>comunicacao.ecotech@gmail.com</p>
+          </a>
+        </div>
+      </div>
+      <div class="social">
+        <h3>Redes Sociais</h3>
+        <div class="social-info">
+          <a class="social-info-item" href="https://www.instagram.com/ecotech_startup/" target="_blank">
+            <div class="icon-shadow">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <p>ecotech_startup</p>
+          </a>
+          <a class="social-info-item" href="https://www.facebook.com/ecotechstartup" target="_blank">
+            <div class="icon-shadow">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <p>ecotechstartup</p>
+          </a>
+          <a class="social-info-item" href="https://www.linkedin.com/company/e-co-tech/" target="_blank">
+            <div class="icon-shadow">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>e-co-tech</p>
+          </a>
+        </div>
+      </div>
+      <div class="break"></div>
+    </div>
+    <p id="copyright">Desenvolvido por <a href="https://unect.com.br/" target="_blank">Unect Júnior</a></p>
+  </section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
